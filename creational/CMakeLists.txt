@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.22)
+
+project(creational LANGUAGES CXX)
+
+add_executable(load_balancer_test singleton/load_balancer/load_balancer_test.cc)
+add_executable(db_connection_pool_test singleton/db_connection_pool/db_connection_pool_test.cc)
