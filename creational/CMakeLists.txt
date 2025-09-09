@@ -8,3 +8,5 @@ add_executable(db_connection_pool_test singleton/db_connection_pool/db_connectio
 add_subdirectory(simple_factory)
 add_subdirectory(factory_method)
 add_subdirectory(abstract_factory)
+
+add_executable(generic_factory_test generic_factory/generic_factory_test.cc)
