@@ -10,3 +10,5 @@ add_subdirectory(factory_method)
 add_subdirectory(abstract_factory)
 
 add_executable(generic_factory_test generic_factory/generic_factory_test.cc)
+
+add_subdirectory(prototype)
