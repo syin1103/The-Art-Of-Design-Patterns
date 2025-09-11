@@ -12,3 +12,4 @@ add_subdirectory(abstract_factory)
 add_executable(generic_factory_test generic_factory/generic_factory_test.cc)
 
 add_subdirectory(prototype)
+add_subdirectory(builder)

@@ -26,3 +26,7 @@
 6. 原型模式
 - 示例：OA系统公文管理器（OfficialDocument）
 - 练习：无
+
+7. 建造者模式
+- 示例：PRG 游戏角色（Actor）
+- 练习：视频播放软件（Player）
