@@ -20,4 +20,5 @@ if (WIN32)
 endif()
 
 add_subdirectory(creational)
+add_subdirectory(structural)
 

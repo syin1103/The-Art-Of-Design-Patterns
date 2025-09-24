@@ -30,3 +30,8 @@
 7. 建造者模式
 - 示例：PRG 游戏角色（Actor）
 - 练习：视频播放软件（Player）
+
+## 结构型（Structural）
+1. 适配器模式
+- 示例：教务系统算法库重用（ScoreOperation）
+- 练习：OA 系统加密模块（Encryptor）
