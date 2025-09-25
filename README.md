@@ -35,3 +35,7 @@
 1. 适配器模式
 - 示例：教务系统算法库重用（ScoreOperation）
 - 练习：OA 系统加密模块（Encryptor）
+
+2. 桥接模式
+- 示例：跨平台图像浏览系统（Image）
+- 练习：数据转换工具（Converter）
