@@ -13,3 +13,7 @@ add_executable(file_converter bridge/converter/main.cc)
 # Composite Pattern
 add_executable(kill_virus composite/virus/main.cc)
 add_executable(ui_control composite/control/main.cc)
+
+# Decorator Pattern
+add_executable(ui_component decorator/component/main.cc)
+add_executable(muti_encryption decorator/encryption/main.cc)
