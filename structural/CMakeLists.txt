@@ -17,3 +17,7 @@ add_executable(ui_control composite/control/main.cc)
 # Decorator Pattern
 add_executable(ui_component decorator/component/main.cc)
 add_executable(muti_encryption decorator/encryption/main.cc)
+
+# Facade Pattern
+add_executable(file_encrypt facade/encrypt/main.cc)
+add_executable(backup facade/backup/main.cc)
