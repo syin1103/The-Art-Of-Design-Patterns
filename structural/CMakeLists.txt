@@ -21,3 +21,7 @@ add_executable(muti_encryption decorator/encryption/main.cc)
 # Facade Pattern
 add_executable(file_encrypt facade/encrypt/main.cc)
 add_executable(backup facade/backup/main.cc)
+
+# Flyweight pattern
+add_executable(igo_chess flyweight/chess/main.cc)
+add_executable(media flyweight/media/main.cc)
