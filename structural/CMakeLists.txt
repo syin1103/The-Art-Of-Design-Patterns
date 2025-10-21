@@ -25,3 +25,6 @@ add_executable(backup facade/backup/main.cc)
 # Flyweight pattern
 add_executable(igo_chess flyweight/chess/main.cc)
 add_executable(media flyweight/media/main.cc)
+
+# Proxy pattern
+add_executable(searcher proxy/searcher/main.cc)
