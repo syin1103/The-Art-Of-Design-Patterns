@@ -9,3 +9,6 @@ add_executable(leave chain/leave/main.cc)
 # Command pattern
 add_executable(caculator command/caculator/main.cc)
 add_executable(menu command/menu/main.cc)
+
+# Interpreter pattern
+add_executable(format interpreter/format/main.cc)
