@@ -12,3 +12,6 @@ add_executable(menu command/menu/main.cc)
 
 # Interpreter pattern
 add_executable(format interpreter/format/main.cc)
+
+# Iterator pattern
+add_executable(product_list iterator/object_list/main.cc)
