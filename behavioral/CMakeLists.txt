@@ -19,3 +19,7 @@ add_executable(product_list iterator/object_list/main.cc)
 # Mediator pattern
 add_executable(crm mediator/crm/main.cc mediator/crm/mediator.cc)
 add_executable(pane mediator/pane/main.cc mediator/pane/mediator.cc)
+
+# Memento pattern
+add_executable(chessman memento/chessman/main.cc)
+add_executable(rpg memento/rpg/main.cc)
