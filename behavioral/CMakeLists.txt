@@ -15,3 +15,7 @@ add_executable(format interpreter/format/main.cc)
 
 # Iterator pattern
 add_executable(product_list iterator/object_list/main.cc)
+
+# Mediator pattern
+add_executable(crm mediator/crm/main.cc mediator/crm/mediator.cc)
+add_executable(pane mediator/pane/main.cc mediator/pane/mediator.cc)
