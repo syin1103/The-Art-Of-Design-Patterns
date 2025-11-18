@@ -23,3 +23,7 @@ add_executable(pane mediator/pane/main.cc mediator/pane/mediator.cc)
 # Memento pattern
 add_executable(chessman memento/chessman/main.cc)
 add_executable(rpg memento/rpg/main.cc)
+
+# Observer pattern
+add_executable(ally observer/ally/main.cc)
+add_executable(stock observer/stock/main.cc)
