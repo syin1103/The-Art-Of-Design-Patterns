@@ -27,3 +27,7 @@ add_executable(rpg memento/rpg/main.cc)
 # Observer pattern
 add_executable(ally observer/ally/main.cc)
 add_executable(stock observer/stock/main.cc)
+
+# State pattern
+add_executable(screen_state state/screen/main.cc)
+add_executable(player_state state/player/main.cc)
