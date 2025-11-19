@@ -31,3 +31,7 @@ add_executable(stock observer/stock/main.cc)
 # State pattern
 add_executable(screen_state state/screen/main.cc)
 add_executable(player_state state/player/main.cc)
+
+# Strategy pattern
+add_executable(movie_ticket strategy/movie/main.cc)
+add_executable(airplane strategy/airplane/main.cc)
