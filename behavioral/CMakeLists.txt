@@ -39,3 +39,7 @@ add_executable(airplane strategy/airplane/main.cc)
 # Template pattern
 add_executable(account_t template/account/main.cc)
 add_executable(db_operator template/db_operator/main.cc)
+
+# Visitor pattern
+add_executable(department visitor/department/main.cc)
+add_executable(award visitor/award/main.cc)
