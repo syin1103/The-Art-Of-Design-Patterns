@@ -35,3 +35,7 @@ add_executable(player_state state/player/main.cc)
 # Strategy pattern
 add_executable(movie_ticket strategy/movie/main.cc)
 add_executable(airplane strategy/airplane/main.cc)
+
+# Template pattern
+add_executable(account_t template/account/main.cc)
+add_executable(db_operator template/db_operator/main.cc)
